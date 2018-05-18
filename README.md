@@ -3,3 +3,7 @@
 # file2go
 
 Dead-simple file embedding tool for Go
+
+# Usage
+
+	//go:generate file2go -in <filename>
