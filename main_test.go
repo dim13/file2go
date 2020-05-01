@@ -16,6 +16,7 @@ func TestGenerate(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
+	defer bin.Close()
 	buf := new(bytes.Buffer)
 	err = generate(buf, bin, "empty.gz", "testdata", "file2go -in empty.gz -pkg testdata")
 	if err != nil {
