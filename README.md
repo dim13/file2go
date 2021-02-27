@@ -3,6 +3,8 @@
 Dead-simple file embedding tool for Go similar to
 [file2c](https://man.openbsd.org/OpenBSD-5.5/man1/file2c.1).
 
+Deprecated by [embed](https://golang.org/pkg/embed/) package.
+
 ## Install
 
     go get github.com/dim13/file2go
